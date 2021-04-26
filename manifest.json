@@ -2,7 +2,7 @@
     "files": {
         "index.js": "de31b2bb502a9ff93a54360a8d29062ab6803f2db8bd5ff2cc4a25a2fa3b383a",
         "module.json": "84c57f2b88b826c39985b4e4443626331a3ed8e215630382d35d4e3027057960",
-        "readme.md": "c9c2de9cd56c36d9e916bf4e92d7d0b6bff6b35e7958d4090ef3a9bb24aefcbf"
+        "readme.md": "87abec2b726d6dd7c71ca82811f6efd51b88bc57ca759053446b4367c27e2821"
     },
     "defs": {
         "C_DIALOG": "*",

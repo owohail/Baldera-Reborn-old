@@ -2,6 +2,8 @@
 
 [Video Trailer/Short Preview](https://www.youtube.com/watch?v=jzZ50gQgXnk)
 
+[BHS teased an official Baldera update at the end of this video, on the same day as this mod.](https://www.youtube.com/watch?v=RPeTUvFMqKU)
+
 **Baldera Reborn** focuses on making the region of Baldera feel a little more lively. This has been accomplished by using the [TERA Toolbox](https://github.com/tera-toolbox/tera-toolbox) modding platform to add clientside NPCs to the game. I've taken dialog from all over the game, and spliced it together to create a personal artistic interpretation of what Baldera _may_ have been in its prime.
 
 Currently, Baldera Reborn features a fully populated city, and both camps. However, nature outside of these areas is lacking NPCs. If there's enough interest, I will be more than willing to expand upon what is provided, adding NPCs to areas that lack them; and potentially even looking into adding monsters if possible. Regardless, what exists is a fully usable form of my original goal. There's a grim reality to Baldera's fate, and why the seal was put in place north of Arcadia in the first place. Will you uncover the secrets, and piece together the story of Baldera's last stand? Or, will you draw your own conclusions? The tale is yours to tell.
@@ -39,6 +41,18 @@ Baldera Reborn offers the following features:
 4. **With all Toolbox modules, use caution when talking about it in-game.** I won't say that this module is 100% safe, but it should be at least 99.99% safe as long as you use common sense. Don't use the shuttle when other people you don't know are around, and don't tell people that you have NPCs added to the game.
 
 
+## Additional Mods
+This mod is best paired with one or more of the below:
+
+[Ambush's Baldera Map](https://github.com/ambushing/Baldera-Map) : Adds a minimap to Baldera.
+
+[Salty's Dynamic Day](https://github.com/SaltyMonkey/dynamic-day) : Changes your visual based on system or server time. Use this, **OR** use Aerogasm below, don't use both.
+
+[nmod's Aerogasm](https://github.com/nmods/aerogasm) : Alternative to Dynamic Day with a higher variance on effects. Use this **OR** use Dynamic Day above, don't use both.
+
+[sol's Jukebox](https://github.com/memeslash/jukebox) : Adds a portable jukebox that can play in-game music for you.
+
+
 ## Credits
 [Snug](https://github.com/Snugglez) : Providing a dialog dump, and answering a lot of questions during this mod's creation.
 
@@ -47,8 +61,11 @@ All prerelease testers, who helped seek out bugs, and gave input about many fact
 
 ## Changelog
 <details>
+
+### 1.0.1 (4/26/2021)
+- Updated readme to include both the fact that BHS made an official teaser, as well as additional mods.
   
- ### 1.0 (4/26/2021)
+### 1.0 (4/26/2021)
 - Initial public release.
 - Same features as 1.0 Release Candidate 1.
 

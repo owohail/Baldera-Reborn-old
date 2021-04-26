@@ -3,7 +3,7 @@
     "name": "baldera-reborn",
     "author": "Ambush",
     "description": "Adds NPCs to the city of Balderon and the surrounding camps of Baldera to help make it feel like it was meant to exist.",
-    "version": "1.0",
+    "version": "1.0.1",
     "options": {
         "guiName": "Baldera Reborn",
         "niceName": "BR"

@@ -62,6 +62,10 @@ All prerelease testers, who helped seek out bugs, and gave input about many fact
 ## Changelog
 <details>
 
+### 1.0.2 (4/29/2021)
+- Added v105 support.
+- Updated error messages.
+
 ### 1.0.1 (4/26/2021)
 - Updated readme to include both the fact that BHS made an official teaser, as well as additional mods.
   

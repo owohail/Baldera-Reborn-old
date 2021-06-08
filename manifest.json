@@ -1,18 +1,18 @@
 {
     "files": {
-        "index.js": "c9457927ef92516c9ff886ffb49503ff8eb4e3c41f6e6f108119862d1ae43bdc",
-        "module.json": "a28ab50f856f4ebb8f910609ac01894792970d5450c45e3f13e89252292e173f",
-        "readme.md": "fe3da8191d1dd2586a3a13f56fd3d37221fdd378e4842172a8326dc2d0c7a6d9"
+        "index.js": "956825a7f35b36adcc0ed53687b1714f053c3c63c400b93af5a5839f87783dc8",
+        "module.json": "3ed44286eb907fdeedeedb7eefdf8498d45773cf3a71871a5c2fcabe9e425643",
+        "readme.md": "25bea779bc4908cace78dbb1432ed3b654600525e73f9b82ecba4372d22cc8fa"
     },
     "defs": {
         "C_DIALOG": "*",
-        "C_DIALOG_EVENT": [1,48938],
+        "C_DIALOG_EVENT": [1,63267],
         "C_GET_IN_SHUTTLE": "*",
         "C_GET_OUT_SHUTTLE": "*",
         "C_NPC_CONTACT": 2,
         "C_PLAYER_LOCATION": ["*","c_player_flying_location"],
         "S_DIALOG": 3,
-        "S_DIALOG_EVENT": 40042,
+        "S_DIALOG_EVENT": 55588,
         "S_DUNGEON_EVENT_MESSAGE": 2,
         "S_LOAD_TOPO": 3,
         "S_MOVE_SHUTTLE": 1,

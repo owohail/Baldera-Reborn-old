@@ -8,7 +8,7 @@
 */
 
 module.exports = function balderareborn(d) {
-  let currentVersion = 105,
+  let currentVersion = 106,
       errorPresent = false,
       tempSpawned = false,
       infakeShuttle = false,
@@ -20,8 +20,8 @@ module.exports = function balderareborn(d) {
 
   // Toolbox doesn't map the opcodes we need by defualt, so we have to add them ourselves as well. Similar to the definition above, doing this in code makes it easier to update.
   if (d.publisher == 'gf' && d.majorPatchVersion == currentVersion) {
-    d.dispatch.addOpcode(`S_DIALOG_EVENT`, 40042) // Talk to an NPC logging server packets.
-    d.dispatch.addOpcode(`C_DIALOG_EVENT`, 48938) // Talk to an NPC logging client packets.
+    d.dispatch.addOpcode(`S_DIALOG_EVENT`, 55588) // Talk to an NPC logging server packets.
+    d.dispatch.addOpcode(`C_DIALOG_EVENT`, 63267) // Talk to an NPC logging client packets.
   }
   // I play on the Gameforge region. If you are not playing a Gameforge release (NA/EU/RU/SEA), my opcodes will not work and you will need to map them yourself.
   if (d.publisher !== 'gf') {

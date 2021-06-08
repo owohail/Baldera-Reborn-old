@@ -62,6 +62,9 @@ All prerelease testers, who helped seek out bugs, and gave input about many fact
 ## Changelog
 <details>
 
+### 1.0.3 (6/8/2021)
+- Added v106 support.
+
 ### 1.0.2 (4/29/2021)
 - Added v105 support.
 - Updated error messages.

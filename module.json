@@ -1,12 +1,12 @@
 {
     "name": "baldera-reborn",
     "author": "Ambush",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "description": "Adds NPCs to the city of Balderon and the surrounding camps of Baldera to help make it feel like it was meant to exist.",
     "disableAutoUpdate": false,
     "options": {
         "cliName": "BR",
-        "guiName": "<font color='#9f80ff'>Baldera Reborn‎‏‏‎ ‎</font>"
+        "guiName": "Baldera Reborn‎‏‏‎"
     },
     "servers": ["https://raw.githubusercontent.com/ambushing/Baldera-Reborn/main/"],
     "supportUrl": "https://github.com/ambushing/Baldera-Reborn/blob/main/readme.md"

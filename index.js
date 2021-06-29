@@ -8,7 +8,7 @@
 */
 
 module.exports = function balderareborn(d) {
-  let currentVersion = 106,
+  let currentVersion = 107,
       errorPresent = false,
       tempSpawned = false,
       infakeShuttle = false,

@@ -1,7 +1,7 @@
 {
     "name": "baldera-reborn",
     "author": "Ambush",
-    "version": "(DEPRECATED) 1.0.5",
+    "version": "(DEPRECATED) 1.0.5a",
     "description": "Adds NPCs to the city of Balderon and the surrounding camps of Baldera to help make it feel like it was meant to exist.",
     "disableAutoUpdate": false,
     "options": {

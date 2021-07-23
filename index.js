@@ -20,6 +20,8 @@ module.exports = function balderareborn(d) {
 
   // Toolbox doesn't map the opcodes we need by defualt, so we have to add them ourselves as well. Similar to the definition above, doing this in code makes it easier to update.
   if (d.publisher == 'gf' && d.majorPatchVersion == currentVersion) {
+    d.log(`DEPRECATION WARNING: Hi! Thank you for using Baldera Reborn! When we get v108, this mod will likely cease to function without manual update.`)
+    d.log(`This is because KTERA is using Baldera as of 7/28. You're free to use this mod, but it will be redundant soon.`)
     d.dispatch.addOpcode(`S_DIALOG_EVENT`, 55588) // Talk to an NPC logging server packets.
     d.dispatch.addOpcode(`C_DIALOG_EVENT`, 63267) // Talk to an NPC logging client packets.
   }

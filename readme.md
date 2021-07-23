@@ -1,8 +1,9 @@
 # Baldera Reborn
+**THIS MOD IS BEING DEPRECATED!** As of v108 it will cease to function without manual updates. This is because Baldera will be officially used soon. You're free to use the mod yourself, but I won't be supporting it anymore.
 
 [Video Trailer/Short Preview](https://www.youtube.com/watch?v=jzZ50gQgXnk)
-
 [BHS teased an official Baldera update at the end of this video, on the same day as this mod.](https://www.youtube.com/watch?v=RPeTUvFMqKU)
+[KTERA IS OFFICIALLY USING BALDERA](https://playtera.co.kr/news/updates/492?page_from=1)
 
 **Baldera Reborn** focuses on making the region of Baldera feel a little more lively. This has been accomplished by using the [TERA Toolbox](https://github.com/tera-toolbox/tera-toolbox) modding platform to add clientside NPCs to the game. I've taken dialog from all over the game, and spliced it together to create a personal artistic interpretation of what Baldera _may_ have been in its prime.
 
@@ -61,6 +62,11 @@ All prerelease testers, who helped seek out bugs, and gave input about many fact
 
 ## Changelog
 <details>
+
+### (DEPRECATED) 1.0.5 (7/23/2021)
+- Added deprecation warning, as KTERA is officially using Baldera soon.
+- This is the final version. If you wish to continue using Baldera Reborn as of v108, you will need to manually update it and disable auto updates.
+- Additionally, when non Korean regions get the Baldera update, this mod will be redundant, as there will be NPCs in Baldera.
 
 ### 1.0.4 (6/29/2021)
 - Added v107 support.

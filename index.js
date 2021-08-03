@@ -8,7 +8,7 @@
 */
 
 module.exports = function balderareborn(d) {
-  let currentVersion = 107,
+  let currentVersion = 108,
       errorPresent = false,
       tempSpawned = false,
       infakeShuttle = false,
@@ -18,10 +18,10 @@ module.exports = function balderareborn(d) {
   // Toolbox doesn't support a required definition, so we need to add it ourselves. Doing it in the code allows me to not have to tell people to add it to a definition folder.
   d.dispatch.addDefinition('S_DIALOG_EVENT', 0, [['gameId', 'uint64'], ['target', 'uint64'], ['unk', 'int32'], ['unk1', 'int32'], ['unk2', 'int32']])
 
-  // Toolbox doesn't map the opcodes we need by defualt, so we have to add them ourselves as well. Similar to the definition above, doing this in code makes it easier to update.
+  // Toolbox doesn't map the opcodes we need by default, so we have to add them ourselves as well. Similar to the definition above, doing this in code makes it easier to update.
   if (d.publisher == 'gf' && d.majorPatchVersion == currentVersion) {
-    d.log(`DEPRECATION WARNING: Hi! Thank you for using Baldera Reborn! When we get v108, this mod will likely cease to function without manual update.`)
-    d.log(`This is because KTERA is using Baldera as of 7/28. You're free to use this mod, but it will be redundant soon.`)
+    d.log(`NOTICE: Hello! Thank you for using this mod! Unfortunately, this is the last update for Baldera Reborn!`)
+    d.log(`NOTICE: This is due to v109 using Baldera officially! Thank you again for your interest.`)
     d.dispatch.addOpcode(`S_DIALOG_EVENT`, 55588) // Talk to an NPC logging server packets.
     d.dispatch.addOpcode(`C_DIALOG_EVENT`, 63267) // Talk to an NPC logging client packets.
   }
@@ -29,13 +29,15 @@ module.exports = function balderareborn(d) {
   if (d.publisher !== 'gf') {
     d.error(`Baldera Reborn is designed for the Gameforge publisher's regions (NA/EU/RU/SEA). It will not function for your safety.`)
     d.error(`If you want to use Baldera Reborn, you'll have to disable updates and supply your own opcodes in the index.js file.`)
+    d.error(`Please note that as of v109 (or newer), this mod is redundant as Baldera is officially being used.`)
     errorPresent = true // this disables the spawning of our NPCs.
   }
   // If our opcodes are outdated, we will disable the mod (and not push the opcodes to the client) out of safety.
   // This means that the mod will not function if it is out of date, which again, is for your safety. There is no harm in leaving this mod in, but you'll have to wait for an update to resume use.
+  // As of v109, this mod is no longer functional.
   if (d.majorPatchVersion !== currentVersion) {
-    d.error(`Baldera Reborn is outdated, and will not spawn NPCs in Baldera for your safety. Usually this is caused when the game has a major patch update.`)
-    d.error(`If this has not been fixed in >24 hours, you can create an issue on Github: https://github.com/ambushing/Baldera-Reborn or tag Ambush#0001 in the TERA Toolbox Discord.`)
+    d.error(`Baldera Reborn was discontinued as of v108. Since your version is newer than v108, it will not function anymore.`)
+    d.error(`Thank you for using Baldera Reborn. Have fun in Arborea! <3`)
     errorPresent = true
   }
 
@@ -410,7 +412,7 @@ module.exports = function balderareborn(d) {
 
   // This function allows us to send fake dialog from NPCs.
   function sDialog(gameId, key1, key2, txtid, id, buttons) {
-    d.send('S_DIALOG', 3, {
+    d.send('S_DIALOG', 4, {
       gameId: gameId,
       type: 1,
       key1: key1,

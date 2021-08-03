@@ -1,9 +1,11 @@
 # Baldera Reborn
-**THIS MOD IS DEPRECATED!** As of v108 it will cease to function without manual updates. This is because Baldera will be [officially used](https://playtera.co.kr/news/updates/492?page_from=1) soon. You're free to use the mod yourself, but I won't be supporting it anymore.
+Due to Baldera being used in v109, this mod **is being deprecated**! Its final update is **v108** and after, it will stop working. You should try to stop using this mod beforehand, as you'll see redundant NPCs when we get v109. Thank you for your interest, and thank you for using this mod! Keep an eye out for any future attempts at this style. <3
 
 [Video Trailer/Short Preview](https://www.youtube.com/watch?v=jzZ50gQgXnk)
 
 [BHS teased an official Baldera update at the end of this video, on the same day as this mod.](https://www.youtube.com/watch?v=RPeTUvFMqKU)
+
+[Baldera is officially being used as of v109!!!](https://playtera.co.kr/news/updates/492?page_from=1)
 
 **Baldera Reborn** focuses on making the region of Baldera feel a little more lively. This has been accomplished by using the [TERA Toolbox](https://github.com/tera-toolbox/tera-toolbox) modding platform to add clientside NPCs to the game. I've taken dialog from all over the game, and spliced it together to create a personal artistic interpretation of what Baldera _may_ have been in its prime.
 
@@ -62,6 +64,14 @@ All prerelease testers, who helped seek out bugs, and gave input about many fact
 
 ## Changelog
 <details>
+
+### 1.1 (Deprecated) (8/3/2021)
+- Added v108 support.
+- Revised a typo or two.
+- Revised warnings when loading the mod.
+- This is likely the final version unless I break something.
+- UNTESTED. There shouldn't be any issues. If there are, please @ me (Ambush#0001).
+- When v109 releases, please don't @ me for issues, as this will be deprecated as of v109.
 
 ### (DEPRECATED) 1.0.5a (7/23/2021)
 - ...Fixed readme.

@@ -47,7 +47,7 @@ Baldera Reborn offers the following features:
 ## Additional Mods
 This mod is best paired with one or more of the below:
 
-[Ambush's Baldera Map](https://github.com/ambushing/Baldera-Map) : Adds a minimap to Baldera.
+[Hail's Baldera Map](https://github.com/hailstorming/Baldera-Map) : Adds a minimap to Baldera.
 
 [Salty's Dynamic Day](https://github.com/SaltyMonkey/dynamic-day) : Changes your visual based on system or server time. Use this, **OR** use Aerogasm below, don't use both.
 
@@ -65,6 +65,10 @@ All prerelease testers, who helped seek out bugs, and gave input about many fact
 ## Changelog
 <details>
 
+### 1.1.1.1 (Deprecated) (4/6/2022)
+- I swear I'm doing this to myself......
+- this project is dead man, dead. let me put it to sleep.
+
 ### 1.1.1 (Deprecated) (4/6/2022)
 - Updated module to new github link.
 - Fixed readme.
@@ -76,8 +80,7 @@ All prerelease testers, who helped seek out bugs, and gave input about many fact
 - Revised a typo or two.
 - Revised warnings when loading the mod.
 - This is likely the final version unless I break something.
-- UNTESTED. There shouldn't be any issues. If there are, please @ me (Ambush#0001).
-- When v109 releases, please don't @ me for issues, as this will be deprecated as of v109.
+- UNTESTED.
 
 ### (DEPRECATED) 1.0.5a (7/23/2021)
 - ...Fixed readme.

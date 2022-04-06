@@ -1,8 +1,8 @@
 {
     "files": {
         "index.js": "3185ef39f884a6554aa43e682234050f62e79870caf2fd1b1272ed4fb1e78cb0",
-        "module.json": "06666693afb99c9a2fa7ace48ca3f5ad46768cbf88d80c332ffd356d076b9d65",
-        "readme.md": "de032e8c410aa72a3bc23accec8e6603c6d9f7a16cf8181e2008755f001ea768"
+        "module.json": "b4d09e0edef204307be65f7569a33714afa4497d2495c8358b6043cb1fe62c45",
+        "readme.md": "473c90375d14512dd09d4df242ca719fa918c6bdb5187b5cbf2a605eac679c45"
     },
     "defs": {
         "C_DIALOG": "*",

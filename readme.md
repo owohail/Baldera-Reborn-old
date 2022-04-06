@@ -1,7 +1,7 @@
 # Baldera Reborn
-Due to Baldera being used in v109, this mod **is being deprecated**! Its final update is **v108** and after, it will stop working. You should try to stop using this mod beforehand, as you'll see redundant NPCs when we get v109. Thank you for your interest, and thank you for using this mod! Keep an eye out for any future attempts at this style. <3
+**THIS MOD IS DEPRECATED!** This is because Baldera will be [officially used](https://playtera.co.kr/news/updates/492?page_from=1) soon.
 
-[Video Trailer/Short Preview](https://www.youtube.com/watch?v=jzZ50gQgXnk)
+The final update is for **v108** and as of writing, this mod is no longer functional. Even if you were to make it functional, it would be redundant as there are NPCs in Baldera officially now. Thank you for your interest!
 
 [BHS teased an official Baldera update at the end of this video, on the same day as this mod.](https://www.youtube.com/watch?v=RPeTUvFMqKU)
 
@@ -64,6 +64,12 @@ All prerelease testers, who helped seek out bugs, and gave input about many fact
 
 ## Changelog
 <details>
+
+### 1.1.1 (Deprecated) (4/6/2022)
+- Updated module to new github link.
+- Fixed readme.
+- I swear this is the last update.
+- Better represents its deprecated and unusable state.
 
 ### 1.1 (Deprecated) (8/3/2021)
 - Added v108 support.
